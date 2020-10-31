@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 213, 135);</string>
+   </property>
+   <widget class="QPushButton" name="pushButtonClose">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>610</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Zamknij</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>771</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutUp">
+     <item>
+      <widget class="QLabel" name="labelAppTitle">
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>APProduct</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelAppDesc">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>APProduct - aplikacja, która pozwoli Ci świadomie wybrać produkty na zakupach! :)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>181</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutLeft">
+     <item>
+      <widget class="QTreeWidget" name="treeWidgetCategories">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+        </font>
+       </property>
+       <column>
+        <property name="text">
+         <string>Kategorie</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Yu Gothic UI</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>Napoje</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Yu Gothic UI</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cola</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sprite</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lipton</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sok pomarańczowy</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nabiał</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Yu Gothic UI</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Mleko</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jogurt naturalny</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Masło</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Makarony</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Yu Gothic UI</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Świderki</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kokardki</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spaghetti</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Słodycze</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Yu Gothic UI</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Ciastka</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Czekolady</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Yu Gothic UI</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+        </item>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>331</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutPhoto">
+     <item>
+      <widget class="QLabel" name="labelPhoto">
+       <property name="text">
+        <string>Zdjęcie</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="framePhoto">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>100</y>
+      <width>241</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutIngredients">
+     <item>
+      <widget class="QLabel" name="labelIngredients">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Skład</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frameIngredients">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>340</y>
+      <width>241</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutCalorieChart">
+     <item>
+      <widget class="QLabel" name="labelCalorieChart">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Wartość odżywcza</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidgetCalorieChart">
+       <row>
+        <property name="text">
+         <string>Wartość energetyczna</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Białko</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Węglowodany</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Błonnik</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Nowy wiersz</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Sól</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>w 100g produktu</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonClose</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>727</x>
+     <y>555</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>648</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
