@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>683</height>
+    <width>870</width>
+    <height>760</height>
    </rect>
   </property>
   <property name="mouseTracking">
@@ -30,13 +30,13 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(150, 213, 135);</string>
+    <string notr="true"/>
    </property>
    <widget class="QPushButton" name="pushButtonClose">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>610</y>
+      <x>780</x>
+      <y>690</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -56,7 +56,7 @@
      <rect>
       <x>9</x>
       <y>9</y>
-      <width>771</width>
+      <width>831</width>
       <height>81</height>
      </rect>
     </property>
@@ -95,210 +95,28 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>100</y>
-      <width>181</width>
-      <height>501</height>
+      <x>240</x>
+      <y>200</y>
+      <width>331</width>
+      <height>491</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayoutLeft">
+    <layout class="QVBoxLayout" name="verticalLayoutPhoto">
      <item>
-      <widget class="QTreeWidget" name="treeWidgetCategories">
-       <property name="font">
-        <font>
-         <family>Yu Gothic UI</family>
-        </font>
+      <widget class="QLabel" name="labelPhoto">
+       <property name="text">
+        <string>Zdjęcie</string>
        </property>
-       <column>
-        <property name="text">
-         <string>Kategorie</string>
-        </property>
-        <property name="font">
-         <font>
-          <family>Yu Gothic UI</family>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-       </column>
-       <item>
-        <property name="text">
-         <string>Napoje</string>
-        </property>
-        <property name="font">
-         <font>
-          <family>Yu Gothic UI</family>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <item>
-         <property name="text">
-          <string>Cola</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Sprite</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Lipton</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Sok pomarańczowy</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-       </item>
-       <item>
-        <property name="text">
-         <string>Nabiał</string>
-        </property>
-        <property name="font">
-         <font>
-          <family>Yu Gothic UI</family>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <item>
-         <property name="text">
-          <string>Mleko</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Jogurt naturalny</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Masło</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-       </item>
-       <item>
-        <property name="text">
-         <string>Makarony</string>
-        </property>
-        <property name="font">
-         <font>
-          <family>Yu Gothic UI</family>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <item>
-         <property name="text">
-          <string>Świderki</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Kokardki</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Spaghetti</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-       </item>
-       <item>
-        <property name="text">
-         <string>Słodycze</string>
-        </property>
-        <property name="font">
-         <font>
-          <family>Yu Gothic UI</family>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <item>
-         <property name="text">
-          <string>Ciastka</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Czekolady</string>
-         </property>
-         <property name="font">
-          <font>
-           <family>Yu Gothic UI</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-        </item>
-       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelPhoto_2">
+       <property name="text">
+        <string/>
+       </property>
       </widget>
      </item>
      <item>
@@ -316,42 +134,13 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget_3">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>100</y>
-      <width>331</width>
-      <height>501</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayoutPhoto">
-     <item>
-      <widget class="QLabel" name="labelPhoto">
-       <property name="text">
-        <string>Zdjęcie</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QFrame" name="framePhoto">
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QWidget" name="verticalLayoutWidget_4">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>100</y>
-      <width>241</width>
-      <height>231</height>
+      <x>580</x>
+      <y>200</y>
+      <width>261</width>
+      <height>181</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayoutIngredients">
@@ -369,24 +158,17 @@
       </widget>
      </item>
      <item>
-      <widget class="QFrame" name="frameIngredients">
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-      </widget>
+      <widget class="QTableView" name="tableViewIngredients"/>
      </item>
     </layout>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget_5">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>340</y>
-      <width>241</width>
-      <height>261</height>
+      <x>240</x>
+      <y>100</y>
+      <width>601</width>
+      <height>91</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayoutCalorieChart">
@@ -404,45 +186,181 @@
       </widget>
      </item>
      <item>
-      <widget class="QTableWidget" name="tableWidgetCalorieChart">
-       <row>
-        <property name="text">
-         <string>Wartość energetyczna</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Białko</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Węglowodany</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Błonnik</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Nowy wiersz</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Sól</string>
-        </property>
-       </row>
-       <column>
-        <property name="text">
-         <string>w 100g produktu</string>
-        </property>
-       </column>
-      </widget>
+      <widget class="QTableView" name="tableViewCalorieChart"/>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="labelDB">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>381</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>[+]Status</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableViewCategories">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>131</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonNabial">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nabiał</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonNapoje">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Napoje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMakarony">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>190</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Makarony</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSlodycze">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Słodycze</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableViewProduct">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>221</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelQuestion">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>O którym produkcie chcesz dowiedzieć się więcej? Wpisz jego ID poniżej.</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCategories">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kategorie:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelProducts">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Produkty:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonOK">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>510</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelError">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>580</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -450,7 +368,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>870</width>
      <height>21</height>
     </rect>
    </property>
@@ -467,7 +385,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>727</x>
-     <y>555</y>
+     <y>631</y>
     </hint>
     <hint type="destinationlabel">
      <x>648</x>
